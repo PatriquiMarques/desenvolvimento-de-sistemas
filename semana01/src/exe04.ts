@@ -8,11 +8,11 @@ export default function exe04(){
 
     let porcentobranco = (brancos/totalelitores) * 100;
     let porcentonulos = (nulos/totalelitores) * 100;
-    let porcentovalidos (validos/totalelitores)*100;
+    let porcentovalidos =(validos/totalelitores)*100;
 
-    console.log(porcentobranco);
-    console.log(porcentonulos);
-    console.log(porcentovalidos);
+    console.log(`${porcentobranco}% do votos foram em branco`);
+    console.log(`${porcentonulos}% do votos foram nulos`);
+    console.log(`${porcentovalidos}% do votos foram em branco`);
 
 
 
