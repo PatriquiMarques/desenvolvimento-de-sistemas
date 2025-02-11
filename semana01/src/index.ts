@@ -8,41 +8,43 @@ import exe06 from './exe06';
 import exe07 from './exe07';
 import exe08 from './exe08';
 import exe09 from './exe09';
+import exe10 from './exe10';
+import exe11 from './exe11';
+import exe12 from './exe12';
+import exe13 from './exe13';
+import exe19 from './exe19';
 
 
 
-var opcao = leia.keyInSelect([
-    "1 - Exercicio 01", "2 - Exercicio 02","3 - Exercicio 03","4 - Exercicio 04","5 - Exercicio 05","6 - Exercicio 06", "7 - Exercicio 07", 
-    "8- Exercicio 08", "9- Exercicio 09"]) + 1;
-
-switch(opcao){
-    case 1:
-        exe01();
-        break;
-    case 2:
-        exe02();
-        break;
-    case 3:
-        exe03();
-        break;    
-    case 4:
-        exe04();
-        break;
-    case 5:
-        exe05();
-        break;   
-    case 6:
-        exe06();
-        break;
-    case 7:
-        exe07;
-        break;
-    case 8:
-        exe08()
-        break;
-    case 9:
-        exe09();
-        break;
 
 
-}
+
+const opcao = leia.keyInSelect([
+    "1 - Exercicio 01",
+    "2 - Exercicio 02",
+    "3 - Exercicio 03",
+    "4 - Exercicio 04",
+    "5 - Exercicio 05",
+    "6 - Exercicio 06", 
+    "7 - Exercicio 07", 
+    "8 - Exercicio 08", 
+    "9 - Exercicio 09",
+    "10 - Exercicio 10", 
+    "11 - Exercicio 11", 
+    "12 - Exercicio 12", 
+    "13 - Exercicio 13",
+    "19 - Exercicio 19", 
+    "13 - Exercicio 13",    
+    "13 - Exercicio 13",   
+    "13 - Exercicio 13",
+
+]) + 1;
+
+
+const exercicios ={
+    1: exe01,
+    2: exe02,
+
+}as {[key: number]: () => void}
+
+exercicios[opcao]()
