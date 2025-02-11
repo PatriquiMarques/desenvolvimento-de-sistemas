@@ -32,7 +32,7 @@ const opcao = leia.keyInSelect([
     "10 - Exercicio 10", 
     "11 - Exercicio 11", 
     "12 - Exercicio 12", 
-    "13 - Exercicio 13",
+    "13 - Exercicio 14",
     "19 - Exercicio 19", 
     "13 - Exercicio 13",    
     "13 - Exercicio 13",   
@@ -44,6 +44,22 @@ const opcao = leia.keyInSelect([
 const exercicios ={
     1: exe01,
     2: exe02,
+    3: exe03,
+    4: exe04,
+    5: exe05,
+    6: exe06,
+    7: exe07,
+    8: exe08,
+    9: exe09,
+    10: exe10,
+    11: exe11,
+    12: exe12,
+    13: exe13,
+    19: exe19,
+    20: exe20,
+  
+  
+
 
 }as {[key: number]: () => void}
 
