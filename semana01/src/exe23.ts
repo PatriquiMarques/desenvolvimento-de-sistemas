@@ -1,5 +1,5 @@
 import leia from 'readline-sync'
-export default function exe16(){
+export default function exe23(){
 
     
 }

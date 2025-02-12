@@ -13,6 +13,14 @@ import exe11 from './exe11';
 import exe12 from './exe12';
 import exe13 from './exe13';
 import exe19 from './exe19';
+import exe20 from './exe20';
+import exe21 from './exe21';
+import exe22 from './exe22';
+import exe23 from './exe23';
+import exe25 from './exe25';
+import exe27 from './exe27';
+
+
 
 
 
@@ -34,9 +42,12 @@ const opcao = leia.keyInSelect([
     "12 - Exercicio 12", 
     "13 - Exercicio 14",
     "19 - Exercicio 19", 
-    "13 - Exercicio 13",    
-    "13 - Exercicio 13",   
-    "13 - Exercicio 13",
+    "20 - Exercicio 20",    
+    "21 - Exercicio 21",   
+    "22 - Exercicio 22",
+    "23 - Exercicio 23",    
+    "25 - Exercicio 25",   
+    "27 - Exercicio 27",
 
 ]) + 1;
 
@@ -57,10 +68,15 @@ const exercicios ={
     13: exe13,
     19: exe19,
     20: exe20,
+    21: exe21,
+    22: exe22,
+    23: exe23,
+    24: exe25,
+    
   
   
 
 
 }as {[key: number]: () => void}
 
-exercicios[opcao]()
+exercicios[opcao]() 

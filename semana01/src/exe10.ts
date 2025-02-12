@@ -1,5 +1,6 @@
 import { keyInSelect } from "readline-sync"
 import leia from 'readline-sync'
+export default function exe10(){
 
 let num = leia.questionInt ("Digite um número ")
 
@@ -10,5 +11,5 @@ let num = leia.questionInt ("Digite um número ")
     }else{
     console.log("O número é impar")}
 
-    
+    }
 
