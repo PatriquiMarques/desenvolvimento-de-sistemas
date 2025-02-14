@@ -17,5 +17,8 @@ export default function exe35() {
         j++
     }
 
+    console.log(vetorNumeros);
+    console.log(mutiplicacao);
+
     
 }

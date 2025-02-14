@@ -1,26 +1,8 @@
 import leia from 'readline-sync';
-import exe01 from './exe01';
-import exe02 from './exe02';
-import exe03 from './exe03';
-import exe04 from './exe04';
-import exe05 from './exe05';
-import exe06 from './exe06';
-import exe07 from './exe07';
-import exe08 from './exe08';
-import exe09 from './exe09';
-import exe10 from './exe10';
-import exe11 from './exe11';
-import exe12 from './exe12';
-import exe13 from './exe13';
-import exe19 from './exe19';
-import exe20 from './exe20';
-import exe21 from './exe21';
-import exe22 from './exe22';
-import exe23 from './exe23';
-import exe25 from './exe25';
-import exe27 from './exe27';
-
-
+import exe35 from './exe35';
+import exe36 from './exe36';
+import exe37 from './exe37';
+import exe38 from './exe38';
 
 
 
@@ -28,10 +10,10 @@ import exe27 from './exe27';
 
 
 const opcao = leia.keyInSelect([
-    "1 - Exercicio 01",
-    "2 - Exercicio 02",
-    "3 - Exercicio 03",
-    "4 - Exercicio 04",
+    "1 - Exercicio 35",
+    "2 - Exercicio 36",
+    "3 - Exercicio 37",
+    "4 - Exercicio 38",
     "5 - Exercicio 05",
     "6 - Exercicio 06", 
     "7 - Exercicio 07", 
@@ -53,25 +35,10 @@ const opcao = leia.keyInSelect([
 
 
 const exercicios ={
-    1: exe01,
-    2: exe02,
-    3: exe03,
-    4: exe04,
-    5: exe05,
-    6: exe06,
-    7: exe07,
-    8: exe08,
-    9: exe09,
-    10: exe10,
-    11: exe11,
-    12: exe12,
-    13: exe13,
-    19: exe19,
-    20: exe20,
-    21: exe21,
-    22: exe22,
-    23: exe23,
-    24: exe25,
+    1: exe35,
+    2: exe36,
+    3: exe37,
+    4: exe38,
     
   
   
